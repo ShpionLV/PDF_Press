@@ -1,8 +1,8 @@
 import os
-from PyPDF2 import PdfFileMerger
+from PyPDF2 import PdfMerger
 
 def merge_pdfs(input_folder, output_file):
-    merger = PdfFileMerger()
+    merger = PdfMerger()
 
     pdf_files = [file for file in os.listdir(input_folder) if file.endswith('.pdf')]
 

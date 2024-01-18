@@ -1,3 +1,4 @@
+#221RDB511 Artūrs Brūvers 
 import os
 from PyPDF2 import PdfMerger
 
@@ -21,5 +22,3 @@ if __name__ == "__main__":
     output_file = "merged_output.pdf"
 
     merge_pdfs(input_folder, output_file)
-
-    print(f"Merged PDF saved to {output_file}")
